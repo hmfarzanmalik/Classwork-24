@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var Totalsets = 40
+    var Booksets = 30
+    var custumerbooksets =Number(prompt("Booking sets now foe you"))
+    if(custumerbooksets=Totalsets-Booksets){
+      document.write("10set Available")
+    }
+    else if(custumerbooksets <= Booksets){
+        document.write("This set is book")
+    }
+    else if(custumerbooksets <= Totalsets){
+        document.write("Okay this sets is booked")
+    }
+</script>
+</html>

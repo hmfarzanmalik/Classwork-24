@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+var totalseats=50
+var bookedseats=25
+var custumerbooked=Number(prompt("Enter Booking Seats Number "))
+var remainingseats=totalseats-bookedseats
+var Attimeavalaibe=remainingseats-custumerbooked
+
+if (custumerbooked<=remainingseats) {
+    document.write(`       <h1 >Congratulations!</h1>
+        <h3>You have successfully booked <b>${custumerbooked}</b> seats.</h3>
+        <h3> After Booking only Seats are remaining: <b>${Attimeavalaibe}</b></h3>`)
+        confirm(`You have Booked ${custumerbooked}`)
+    
+} else {
+    document.write(`<h1 >Sorry!</h1>
+        <h2>Most of the seats are sold out. Only <b>${remainingseats} seats are available.</h2>
+ `)
+}
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
